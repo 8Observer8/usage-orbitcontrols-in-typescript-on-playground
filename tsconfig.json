@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "module": "amd",
+        "target": "es5",
+        "sourceMap": true,
+        "outDir": "dist_client",
+        "types": [
+            "requirejs",
+            "three"
+        ],
+        "lib": [
+            "es2015",
+            "dom"
+        ]
+    },
+    "exclude": [
+        "node_modules",
+        "libs"
+    ],
+    "include": [
+        "src_client"
+    ]
+}
